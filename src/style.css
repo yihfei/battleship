@@ -71,3 +71,8 @@ h1 {
     transform: translateX(-50%);
     font-size: 5vh;
 }
+
+.computer-grid > div:hover {
+    background-color: rgb(179, 179, 179);
+
+}
