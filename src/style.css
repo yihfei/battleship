@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    gap: 100px;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.restart {
+    position: fixed;
+    text-align: center;
+    bottom: 15vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 3vh;   
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(74, 74, 74);
+}
+
+
+.human-grid, .computer-grid {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+}
+
+.human-grid div, .computer-grid div {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.blue {
+    background-color: blue;
+    pointer-events: none;
+
+}
+
+.red {
+    background-color: red;
+    pointer-events: none;
+}
+
+.ship {
+    background-color: grey;
+}
+
+h1 {
+    position: fixed;
+    text-align: center;
+    top: 8vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 5vh;    
+}
+
+.result {
+    position: fixed;
+    text-align: center;
+    top: 18vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 5vh;
+}
